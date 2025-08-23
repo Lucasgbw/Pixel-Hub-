@@ -16,15 +16,6 @@ local redzlib = {
 				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(32.5, 32.5, 32.5)),
 				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
 			}),
-   
-   local Bg = Instance.new("ImageLabel")
-Bg.Size = UDim2.new(1, 0, 1, 0)
-Bg.Position = UDim2.new(0, 0, 0, 0)
-Bg.Image = "rbxassetid://SEU_ID_DA_IMAGEM"
-Bg.BackgroundTransparency = 1
-Bg.ZIndex = 0 -- Fica atrás de tudo
-Bg.Parent = MainFrame
-   
 			["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
 			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
 			["Color Theme"] = Color3.fromRGB(88, 101, 242),
