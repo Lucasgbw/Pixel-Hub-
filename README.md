@@ -52,7 +52,7 @@ local redzlib = {
 	},
 	Save = {
 		UISize = {550, 380},
-		TabSize = 160,
+		TabSize = 149,
 		Theme = "Darker"
 	},
 	Settings = {},
@@ -303,7 +303,7 @@ local redzlib = {
 			["cpu"] = "rbxassetid://10709813383",
 			["croissant"] = "rbxassetid://10709818125",
 			["crop"] = "rbxassetid://10709818245",
-			["cross"] = "rbxassetid://10709818399",
+			["cross"] = "rbxassetid://4306642981",
 			["crosshair"] = "rbxassetid://10709818534",
 			["crown"] = "rbxassetid://10709818626",
 			["cupsoda"] = "rbxassetid://10709818763",
@@ -1706,7 +1706,7 @@ function redzlib:MakeWindow(Configs)
 		})
 		
 		local Screen = InsertTheme(Create("Frame", MainFrame, {
-			BackgroundTransparency = 0.6,
+			BackgroundTransparency = 0.1,
 			Active = true,
 			BackgroundColor3 = Theme["Color Hub 2"],
 			Size = UDim2.new(1, 0, 1, 0),
