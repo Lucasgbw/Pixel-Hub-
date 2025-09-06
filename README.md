@@ -16,11 +16,11 @@ local redzlib = {
 				ColorSequenceKeypoint.new(0.50, Color3.fromRGB(32.5, 32.5, 32.5)),
 				ColorSequenceKeypoint.new(1.00, Color3.fromRGB(25, 25, 25))
 			}),
-			["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
-			["Color Stroke"] = Color3.fromRGB(1, 0, 0),
-			["Color Theme"] = Color3.fromRGB(88, 0, 68)
+			["Color Hub 2"] = Color3.fromRGB(30, 30, 30),
+			["Color Stroke"] = Color3.fromRGB(40, 40, 40),
+			["Color Theme"] = Color3.fromRGB(88, 101, 242),
 			["Color Text"] = Color3.fromRGB(243, 243, 243),
-			["Color Dark Text"] = Color3.fromRGB(88, 0, 115)
+			["Color Dark Text"] = Color3.fromRGB(180, 180, 180)
 		},
 		Dark = {
 			["Color Hub 1"] = ColorSequence.new({
@@ -52,7 +52,7 @@ local redzlib = {
 	},
 	Save = {
 		UISize = {550, 380},
-		TabSize = 146,
+		TabSize = 160,
 		Theme = "Darker"
 	},
 	Settings = {},
@@ -68,7 +68,7 @@ local redzlib = {
 			["accessibility"] = "rbxassetid://10709751939",
 			["activity"] = "rbxassetid://10709752035",
 			["airvent"] = "rbxassetid://10709752131",
-			["airplay"] = "rbxassetid://4863692353",
+			["airplay"] = "rbxassetid://10709752254",
 			["alarmcheck"] = "rbxassetid://10709752405",
 			["alarmclock"] = "rbxassetid://10709752630",
 			["alarmclockoff"] = "rbxassetid://10709752508",
@@ -303,7 +303,7 @@ local redzlib = {
 			["cpu"] = "rbxassetid://10709813383",
 			["croissant"] = "rbxassetid://10709818125",
 			["crop"] = "rbxassetid://10709818245",
-			["cross"] = "rbxassetid://4306642981",
+			["cross"] = "rbxassetid://10709818399",
 			["crosshair"] = "rbxassetid://10709818534",
 			["crown"] = "rbxassetid://10709818626",
 			["cupsoda"] = "rbxassetid://10709818763",
@@ -1706,7 +1706,7 @@ function redzlib:MakeWindow(Configs)
 		})
 		
 		local Screen = InsertTheme(Create("Frame", MainFrame, {
-			BackgroundTransparency = 0.1,
+			BackgroundTransparency = 0.6,
 			Active = true,
 			BackgroundColor3 = Theme["Color Hub 2"],
 			Size = UDim2.new(1, 0, 1, 0),
