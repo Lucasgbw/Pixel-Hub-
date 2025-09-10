@@ -18,8 +18,8 @@ local redzlib = {
 			}),
 			["Color Hub 2"] = Color3.fromRGB(0, 0, 0),
 			["Color Stroke"] = Color3.fromRGB(0, 0, 0),
-			["Color Theme"] = Color3.fromRGB(139, 0, 68),
-			["Color Text"] = Color3.fromRGB(88, 0, 68),
+			["Color Theme"] = Color3.fromRGB(139, 0, ),
+			["Color Text"] = Color3.fromRGB(141, 0, 0),
 			["Color Dark Text"] = Color3.fromRGB(88, 0, 68)
 		},
 		Dark = {
@@ -51,7 +51,7 @@ local redzlib = {
 		Version = "1.1.0"
 	},
 	Save = {
-		UISize = {550, 380},
+		UISize = {550, 379},
 		TabSize = 160,
 		Theme = "Darker"
 	},
@@ -1258,7 +1258,7 @@ local function ButtonFrame(Instance, Title, Description, HolderSize)
 		AnchorPoint = Vector2.new(0, 0.5),
 		BackgroundTransparency = 1,
 		TextTruncate = "AtEnd",
-		TextSize = 10,
+		TextSize = 11,
 		TextXAlignment = "Left",
 		Text = "",
 		RichText = true
